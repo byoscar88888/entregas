@@ -1,1 +1,33 @@
 
+1. Crea dos enviroment en tu PC:
+Para poder hacer las siguientes tareas tendrás que buscar en internet como instalar un paquete de python, como ver los paquetes que tenemos instalados de python.
+
+Para instalar un paquete debemos de usar el comando "pip" seguidamente de "install" y el paquete. Recuerda que debes ejecutar comandos de pip desde la línea de comandos, no desde el intérprete interactivo de Python.
+
+Para crear un entorno usaremos el siguiente comando: python -m venv entorno1
+Para activarlo ponemos el siguiente: entorno1\Scripts\activate
+Dentro de cada enviroment ponemos el paquerte que queramos con "pip install ..."
+Para listar los paquetes instalados ponemos "pip list"
+Para salir del entorno ponemos "deactivate"
+
+lista los paquetes python instalados en el primer environment
+instala un paquete en el 2º environment y lista los paquetes
+ 
+
+2. Instala Anaconda en tu PC
+Descarga e instala Anaconda
+Crea un notebook de jupyter, en esta
+crea un titulo que diga mi primer programa
+crea un codigo que imprima "mi primer programa"
+ 
+
+3. En tu hoja de github explica las diferencias (cons y pros) entre:
+Environment
+Anaconda
+Colab
+
+
+
+para crear un entrono
+para entrar en un entrono
+para salir de un entorno
