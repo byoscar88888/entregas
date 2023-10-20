@@ -10,6 +10,8 @@ Dentro de cada enviroment ponemos el paquerte que queramos con "pip install ..."
 Para listar los paquetes instalados ponemos "pip list"
 Para salir del entorno ponemos "deactivate"
 
+Tener en cuenta que una vez estamo dentro del entorno, los paquetes que instalemos dentro del mismo, solo estarán disponibles ahí.
+
 lista los paquetes python instalados en el primer environment
 instala un paquete en el 2º environment y lista los paquetes
  
