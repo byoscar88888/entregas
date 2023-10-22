@@ -24,12 +24,36 @@ crea un codigo que imprima "mi primer programa"
  
 
 3. En tu hoja de github explica las diferencias (cons y pros) entre:
-Environment
-Anaconda
-Colab
 
+3.1Environment:
+En cuanto a los pros podemos destacar.
+-Flexibilidad ya que puedes crear y personalizar tu entorno
+-Proporciona un entorno seguro y privacidad ya que tus datos y códigos son privados
+-Se puede acceder a los datos locales de manera eficiente
 
+En cuanto a los cons podemos destacar.
+-No nos proporciona el acceder a nuestros proyectos de manera remota ya que todos los proyectos estan de manera local en nuestro ordenador
+-Se puede llegar a necesitar un dispositivo con recursos suficientes
+-Se debe de actualizar constantemente las bibliotecas y software
 
-para crear un entrono
-para entrar en un entrono
-para salir de un entorno
+3.2Anaconda:
+En cuanto a los pros podemos destacar.
+-Anaconca cuenta con una comunidad mayoritariamente activa la cual proporciona soporte y recursos
+-La gestión de entornos y la facilidad para compartir archivos de entorno hace que sea sencillo colaborar en proyectos de equipo
+-Anaconda es compatible con multitid de sistemas operativos
+
+En cuanto a los cons podemos destacar.
+-Al tener una gran varidad de bibliotecas, es posible que termines conmultiples versiones de una biblioteca
+-Anaconda ocupa bastante espacio en tu disco duro
+
+3.3Colab:
+En cuanto a los pros podemos destacar.
+-Colab al ser una nube no requiere ninguna instalación local
+-Ofrece acceso gratuito a recursos de GPU y TPU
+-Contiene una gran variedad de bibliotecas
+
+En cuanto a los cons podemos destacar.
+-Dependencia de acceso a internet
+-Al estar trabajando en la nube de google tienes que ser consciente de la privacidad de tus datos
+-Tiene un tiempo de 12h de ejecución
+
