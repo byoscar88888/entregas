@@ -29,6 +29,58 @@ Se pueden resolver diferentes tareas tales como:
 - Planificación de Viajes y Reservas
 
   Ejemplos:
-  Prospector: Utilizado en el campo de la geología y la exploración mineral. Fue desarrollado para ayudar en la identificación de ubicaciones prometedoras para la extracción de minerales y la toma de decisiones en la exploración de recursos naturales.
+  Prospector: Utilizado en el campo de la geología y la exploración mineral. Fue desarrollado para ayudar en la identificación de ubicaciones prometedoras para la extracción de minerales y la toma de decisiones en la 
+  exploración de recursos naturales.
   Está diseñada como sistea de consulta para los geólogos, en las primeras etapas de investigación geológicas en busca de yacimientos minerales.
   La base de datos está basada en una red semántica organizada, a su vez, alrededor de cinco modelos diferentes.
+
+# 4. ¿Qué es CLIPS?, quién lo crea, en que año, se sigue manteniendo en la actualidad, acaba de completar con datos que consideres interesantes.
+CLIPS fue creado por Charles L.Forgy en 1985. Como es de esperar, clips sigue manteniendiose y es utilizado en la actualidad, se han tenido varias versiones y actualizaciones para mejorar tanto su funcionalidad como el rendimiento.  
+Destacar que clips se distruibuye bajo un software de licencia libre y es compatible con múltiples sistemas operativos  
+
+# 5. ¿Cual es el futuro de los sistemas expertos con el auge de la inteligencia artificial, es decir como afectará la IA a los SE?
+La combinación de estos esta dando a lugar a sistemas híbridos, estos pueden aprender y mejorar con el tiempo a medida que se exponen a nuevos datos y situaciones.
+La IA puede ayudar al mantenimiento y la actualización de sistemas expertos, puede identificar reglas, suferis cambios, actualizaciones...
+En cuanto a problemas de los EX, las IA pueden proporcionar datos en tiempo real y análisis de tendencias, loq ue permite a los sitemas expertos tomar decisiones informadas y solucionar porblemas de manera diferente.
+
+# 6. En el ejemplo en rojo que puedes encontrar mas abajo, haz que el código imprima "jirafa", ¿cómo lo has hecho?
+
+(deffacts hechos-iniciales
+(tiene-pelos)
+(tiene-pezugnas)
+(tiene-cuello-largo))
+
+(defrule mamifero-1
+(tiene-pelos)
+=>
+(assert (es-mamifero)))
+
+(defrule mamifero-2
+(da-leche)
+=>
+(assert (es-mamifero)))
+
+(defrule ungulado-1
+(es-mamifero)
+(tiene-pezugnas)
+=>
+(assert (es-ungulado)))
+
+(defrule ungulado-2
+(es-mamifero)
+(rumia)
+=>
+(assert (es-ungulado)))
+
+(defrule jirafa
+(es-ungulado)
+(tiene-cuello-largo)
+=>
+(printout t "Es una jirafa" crlf))
+ 
+(defrule cebra
+(es-ungulado)
+(tiene-rayas-negras)
+=>
+(printout t "Es una cebra" crlf))
+
